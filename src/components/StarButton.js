@@ -14,6 +14,7 @@ const StarButton = () => {
 
     return (
         <span role="switch" onClick={handleFave} style={{ color: faved ? 'gold' : 'grey' }}>★</span>
+        
     );
 
 };

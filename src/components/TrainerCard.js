@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-//  import FaveButton from './components/FaveButton';
+//  import StarButton from './components/StarButton';
 // import './App.css';
 
 const TrainerCard = () => {
@@ -43,7 +43,7 @@ const TrainerCard = () => {
 
       <h3>Ludovico Einaudi</h3>
       <p><span role="figure" id="reads">{thirdLikeCount} <button onClick={increaseThirdCount} /></span> like(s)!</p>
-
+    
       <aside>
         {/* Conditional rendering example 1 */}
         <h3 aria-label="greeting" id="greeting">Hi there, {username ? username : 'friend'}!</h3> </aside>
