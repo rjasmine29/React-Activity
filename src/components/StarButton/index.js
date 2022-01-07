@@ -4,6 +4,8 @@
 
 import React, { useState } from 'react'
 
+
+
 const StarButton = () => {
     const [ faved, setFaved ] = useState(false);
 
@@ -13,7 +15,7 @@ const StarButton = () => {
     }
 
     return (
-        <span role="switch" onClick={handleFave} style={{ color: faved ? 'gold' : 'grey' }}>★</span>
+        <span role="switch" onClick={handleFave} style={{ color: faved ? 'gold' : 'grey' }} >★</span>
         
     );
 

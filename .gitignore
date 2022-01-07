@@ -1,0 +1,10 @@
+# Local Netlify folder
+.netlify
+
+/node_modules
+/build
+
+.DS_Store
+wiki_guide.md
+
+/coverage
